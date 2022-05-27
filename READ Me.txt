@@ -1,0 +1,13 @@
+***NOTE: All the files are should be located in one folder only.
+
+Firstly change directory of the dataset that you've stored in your device.
+
+Then, run the "FACE MASK" file only in "SPYDER" Application.
+
+After running the file, the model will get trained and a "JSON" file is created.
+**NOTE: Do not forget to change the directory "json" & "h5" files directory.
+
+Now run the "FACE MASK (JSON FILE CODE)" file so that a camera window is popped up detects the face and shows,
+		
+			i. "WITH MASK" if we're wearing mask.
+		     ii. "WITHOUT MASK" if we're not wearing mask.
