@@ -1,13 +1,15 @@
-***NOTE: All the files are should be located in one folder only.
+** STORE THE DATASET and the CODE FILES in the SAME FOLDER **
 
-Firstly change directory of the dataset that you've stored in your device.
+1. Update the "DATASET Path" and the "FILE PATH" of the CODE in FACE MASK.py File.
 
-Then, run the "FACE MASK" file only in "SPYDER" Application.
+2. Better to execute the file in SPYDER.
 
-After running the file, the model will get trained and a "JSON" file is created.
-**NOTE: Do not forget to change the directory "json" & "h5" files directory.
+3. Since we're having large dataset, it'll take around 10 - 12 hrs to train.
 
-Now run the "FACE MASK (JSON FILE CODE)" file so that a camera window is popped up detects the face and shows,
-		
-			i. "WITH MASK" if we're wearing mask.
-		     ii. "WITHOUT MASK" if we're not wearing mask.
+3. Then, it'll create two files with the exetensions ".json" and ".h5" in the project folder
+
+4. Now, nxecute the FACE MASK (json file code).py code file
+
+5. Then a Camera window is popped up show u the result.
+
+

@@ -20,9 +20,10 @@ loaded_model = model_from_json(loaded_model_json)
 
 # load weights into new model
 loaded_model.load_weights(r'E:\ML Project\model.h5')
-print("Loaded model from disk")
+print("\n \n")
+print("*********************** Model is loaded from disk ***********************")
 
-
+    
 
 #face_classifier = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -61,7 +62,7 @@ while True:
         else:
             cv2.putText(frame,'No Face Found',(20,60),cv2.FONT_HERSHEY_SIMPLEX,2,(0,255,0),3)
     cv2.imshow('Face Mask Detector',frame)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if cv2.waitKey(10) & 0xFF == ord('q'):
         break
 
 cap.release()
